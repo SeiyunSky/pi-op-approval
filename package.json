@@ -1,0 +1,39 @@
+{
+  "name": "pi-op-approval",
+  "version": "0.1.0",
+  "description": "Pi extension — intercepts destructive agent operations (file delete, Docker, process/service stop, Git, database, orchestrators, install/uninstall) and requires explicit user approval before execution.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "approval",
+    "guard",
+    "safety",
+    "destructive",
+    "confirmation"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "main": "extensions/op-approval.ts",
+  "files": [
+    "extensions/",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.85.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeiyunSky/pi-op-approval.git"
+  },
+  "homepage": "https://github.com/SeiyunSky/pi-op-approval#readme",
+  "author": "SeiyunSky"
+}
