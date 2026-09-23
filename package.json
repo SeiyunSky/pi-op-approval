@@ -1,6 +1,6 @@
 {
   "name": "pi-op-approval",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pi extension — intercepts destructive agent operations (file delete, Docker, process/service stop, Git, database, orchestrators, install/uninstall) and requires explicit user approval before execution.",
   "keywords": [
     "pi-package",
