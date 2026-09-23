@@ -59,10 +59,14 @@ Format:
 ## Installation
 
 ```bash
-pi package add pi-op-approval
+pi install npm:pi-op-approval
 ```
 
-Or manually copy `extensions/op-approval.ts` into `~/.pi/agent/extensions/`.
+Or install from git:
+
+```bash
+pi install git:github.com/SeiyunSky/pi-op-approval
+```
 
 ## Requirements
 
